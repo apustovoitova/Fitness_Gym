@@ -230,11 +230,12 @@ h4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px 20px;
-    position: relative;
+
 }
 
 .sport-grid-item {
     background: #FBF138;
+    position: relative;
 }
 
 .sport-grid-title {
@@ -243,6 +244,10 @@ h4 {
     color: #2B3541;
     padding-left: 30px;
     padding-bottom: 20px;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+
 
 }
 
@@ -251,6 +256,11 @@ h4 {
     font-size: 18px;
     color: #010101;
     opacity: 0.7;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
-.sport-grid-cover {}
+.sport-grid-cover {
+    padding: 161px 272px 83px 30px;
+}
