@@ -283,7 +283,7 @@ h4 {
 
 .form-group {
     position: relative;
-    margin-top: 40px;
+
     display: flex;
 }
 
@@ -312,7 +312,7 @@ h4 {
     color: #2B3541;
     background-color: #FBF138;
     border: 0;
-
+    padding: 21px 43px 20px 42px;
     margin-left: 20px;
 }
 
