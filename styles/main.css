@@ -71,8 +71,6 @@ body {
     color: #2B3541;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-top: 228px;
-    padding-right: 649px;
     display: block;
 }
 
@@ -137,6 +135,7 @@ body {
 .header2 {
     width: 100%;
     height: 50px;
+    margin-bottom: 31px;
 }
 
 .sport-container {
