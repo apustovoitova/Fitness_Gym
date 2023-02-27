@@ -267,11 +267,12 @@ h4 {
 
 .form-container {
     margin-top: 160px;
-    width: 1920px;
+    width: 100%;
     height: 348px;
     background: #F3F3F3;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-top: 80px;
 }
 
@@ -279,6 +280,7 @@ h4 {
     font-weight: 700;
     font-size: 40px;
     color: #2B3541;
+    margin-bottom: 40px;
 }
 
 .form-group {
@@ -318,4 +320,19 @@ h4 {
 
 .flex-form {
     display: flex;
+}
+
+
+
+label {
+    font-weight: 400;
+    font-size: 11px;
+    color: #2B3541;
+    opacity: 0.5;
+    display: flex;
+    gap: 2px;
+}
+
+.checkbox-form {
+    margin-top: 10px;
 }
