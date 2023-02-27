@@ -60,7 +60,6 @@ body {
     width: 1326px;
     height: 852px;
     position: relative;
-    border: 1px solid black;
     background-size: cover;
     margin-bottom: 242px;
     background-position: 0 center;
@@ -139,7 +138,6 @@ body {
 }
 
 .sport-container {
-    border: 1px solid black;
     width: 1141px;
     height: 600px;
     display: flex;
