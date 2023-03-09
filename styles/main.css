@@ -271,6 +271,11 @@ h4 {
     justify-content: center;
     text-align: center;
     padding-top: 80px;
+    position: relative;
+}
+
+.circle {
+    margin-right: -59px;
 }
 
 .form-title {
