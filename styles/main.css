@@ -56,6 +56,11 @@ body {
     background-color: transparent;
 }
 
+.button-item2 :hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
 .block {
     width: 1326px;
     height: 852px;
