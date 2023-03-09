@@ -333,3 +333,69 @@ label {
 .checkbox-form {
     margin-top: 10px;
 }
+
+.container-elementor {
+    position: relative;
+    margin-top: 160px;
+    height: 513px;
+}
+
+.box-sport {
+    position: absolute;
+    width: 500px;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 19px;
+    margin-top: 0px;
+
+}
+
+caption {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sport-btn {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    background-color: #FBF138;
+    border: 0;
+    padding: 20px 50px 20px 50px;
+    display: block;
+    margin-top: 34px;
+}
+
+.fitness-girl {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.container-elementor-footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.prefooter {
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.benefits-flex {
+    width: 287px;
+}
