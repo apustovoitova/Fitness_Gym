@@ -151,15 +151,22 @@ body {
 }
 
 .sport-fitness {
-    background-image: url(../images/png/fitness.png);
+    background-image: url(../images/png/Image1.png);
     width: 367.32px;
     height: 598px;
     margin-right: 20.02px;
     position: relative;
 }
 
+.sport-fitness::after {
+    content: '';
+    background-image: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
+    opacity: 0.6;
+    position: absolute;
+}
+
 .sport-marathon {
-    background-image: url(../images/png/trener.png);
+    background-image: url(../images/png/Vebinar1.png);
     width: 366.32px;
     height: 600px;
     margin-right: 20.02px;
@@ -167,7 +174,7 @@ body {
 }
 
 .sport-yoga {
-    background-image: url(../images/png/yoga.png);
+    background-image: url(../images/png/Vebinar2.png);
     width: 367.32px;
     height: 600px;
     position: relative;
@@ -231,8 +238,6 @@ h4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-
-
 }
 
 .sport-grid {
@@ -241,6 +246,7 @@ h4 {
     height: 309px;
     position: relative;
 }
+
 
 .sport-grid.sport-grid:nth-child(2n) {
     height: 374px;
@@ -439,6 +445,7 @@ h6 {
     background: #F3F3F3;
     width: 100%;
     height: 149px;
+    position: relative;
 }
 
 .footer {
