@@ -158,11 +158,13 @@ body {
     position: relative;
 }
 
-.sport-fitness::after {
+.sport-fitness:after {
     content: '';
     background-image: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
     opacity: 0.6;
     position: absolute;
+    width: 367.32px;
+    height: 598px;
 }
 
 .sport-marathon {
@@ -173,11 +175,50 @@ body {
     position: relative;
 }
 
+.sport-marathon:after {
+    content: '';
+    background-image: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
+    opacity: 0.6;
+    position: absolute;
+    width: 367.32px;
+    height: 598px;
+}
+
+.reserve {
+    background: #2B3541;
+    box-shadow: 0px 13px 24px rgba(70, 86, 106, 0.28);
+    font-weight: 700;
+    font-size: 16px;
+    color: #FBF138;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    padding: 20px 49px 20px 49px;
+    position: absolute;
+    top: 185px;
+    left: 79px;
+    transition: 1s;
+    opacity: 0;
+}
+
+.sport-fitness:hover .reserve {
+    opacity: 1;
+}
+
 .sport-yoga {
     background-image: url(../images/png/Vebinar2.png);
     width: 367.32px;
     height: 600px;
     position: relative;
+}
+
+.sport-yoga:after {
+    content: '';
+    background-image: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
+    opacity: 0.6;
+    position: absolute;
+    width: 367.32px;
+    height: 598px;
 }
 
 .lessons {
@@ -190,7 +231,6 @@ body {
     font-weight: 700;
     font-size: 18px;
     color: #2B3541;
-
 }
 
 .sport-title {
@@ -198,6 +238,10 @@ body {
     font-size: 28px;
     color: #2B3541;
     max-width: 265px;
+    position: absolute;
+    top: 77px;
+    left: 33px;
+    z-index: 999;
 }
 
 .button2 {
@@ -248,23 +292,29 @@ h4 {
 }
 
 
-.sport-grid.sport-grid:nth-child(2n) {
+.sport-grid:nth-child(2n) {
     height: 374px;
 }
 
-.sport-grid.sport-grid:nth-child() {
+.sport-grid:nth-child() {
     top: ;
 }
 
-.sport-grid.sport-grid:nth-child(4) {
-    background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%);
-    opacity: 0.7;
-    box-shadow: 0px 13px 30px rgba(186, 180, 69, 0.2);
-    border: none;
+.sport-grid:nth-child(4) {
+    border: 1px solid black;
     top: -60px;
 }
 
-.sport-grid.sport-grid:nth-child(6) {
+.sport-grid:nth-child(4):hover {
+    border: none;
+    background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%);
+    opacity: 0.7;
+    box-shadow: 0px 13px 30px rgba(186, 180, 69, 0.2);
+    width: 367px;
+    height: 374px;
+}
+
+.sport-grid:nth-child(6) {
     top: -60px;
 }
 
@@ -322,7 +372,6 @@ h4 {
 
 .form-group {
     position: relative;
-
     display: flex;
 }
 
@@ -453,7 +502,6 @@ h6 {
     justify-content: space-between;
     padding-top: 53px;
     padding-bottom: 75px;
-    position: relative;
 }
 
 .footer-nav {
