@@ -70,12 +70,19 @@ body {
     background-position: 0 center;
 }
 
+.block-text {
+    position: absolute;
+    top: 228px;
+    left: 0px;
+}
+
 .block-text h1 {
     font-size: 48px;
     color: #2B3541;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: block;
+    width: 680px;
 }
 
 .text-title {
@@ -108,6 +115,11 @@ body {
     display: block;
     max-width: 253px;
     text-align: center;
+}
+
+.block-link:hover {
+    color: #FBF138;
+    background-color: #2B3541;
 }
 
 .block-gradient {
@@ -161,7 +173,7 @@ body {
 .sport-fitness:after {
     content: '';
     background-image: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
-    opacity: 0.6;
+    opacity: 0.3;
     position: absolute;
     width: 367.32px;
     height: 598px;
@@ -178,7 +190,7 @@ body {
 .sport-marathon:after {
     content: '';
     background-image: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
-    opacity: 0.6;
+    opacity: 0.3;
     position: absolute;
     width: 367.32px;
     height: 598px;
@@ -215,7 +227,7 @@ body {
 .sport-yoga:after {
     content: '';
     background-image: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
-    opacity: 0.6;
+    opacity: 0.3;
     position: absolute;
     width: 367.32px;
     height: 598px;
@@ -404,11 +416,14 @@ h4 {
     margin-left: 20px;
 }
 
+.form-button:hover {
+    color: #FBF138;
+    background-color: #2B3541;
+}
+
 .flex-form {
     display: flex;
 }
-
-
 
 label {
     font-weight: 400;
@@ -456,6 +471,11 @@ caption {
     padding: 20px 50px 20px 50px;
     display: block;
     margin-top: 34px;
+}
+
+.sport-btn:hover {
+    color: #FBF138;
+    background-color: #2B3541;
 }
 
 .fitness-girl {
@@ -539,9 +559,8 @@ h6 {
 
 .ellipse {
     position: absolute;
-    top: 43px;
-    right: 279px;
-
+    left: -43px;
+    top: -8px;
 }
 
 .footer-item-protect {
@@ -562,4 +581,125 @@ h6 {
     position: absolute;
     bottom: 0px;
     right: 0px
+}
+
+/*Responsive*/
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .header-logo {
+        width: 97px;
+        height: 30px;
+    }
+
+    .header-nav {
+        display: none;
+    }
+}
+
+.block {
+    height: 429px;
+}
+
+.block-text h1 {
+    font-size: 26px;
+    width: 400px;
+}
+
+.text-title {
+    font-size: 26px;
+}
+
+.block-item p {
+    font-size: 16px;
+}
+
+.block-gradient {
+    width: 442px;
+    height: 403px;
+}
+
+.block-text {
+    position: absolute;
+    top: 0px;
+    ;
+}
+
+.girl img {
+    width: 399px;
+    height: 364px;
+    right: 579px;
+}
+
+.block-gradient {
+    left: 39px;
+}
+
+.sport-fitness {
+    height: 309px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.reserve {
+    display: none;
+}
+
+
+.sport-fitness:after {
+    width: 364px;
+    height: 309px;
+}
+
+.sport-marathon:after {
+    width: 364px;
+    height: 309px;
+}
+
+.sport-yoga:after {
+    height: 309px;
+}
+
+.sport-marathon {
+    height: 309px;
+    background-repeat: no-repeat;
+
+}
+
+.sport-title {
+    font-size: 16px;
+}
+
+.sport-datum {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.button2 {
+    left: 0px;
+}
+
+.marathon {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+}
+
+h3 {
+    font-size: 26px;
+    width: 230px;
+}
+
+.sport-menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.sport-grid {
+    width: 364px;
+    height: 224px;
 }
