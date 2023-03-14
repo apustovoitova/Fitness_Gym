@@ -368,7 +368,8 @@ h4 {
 }
 
 .circle {
-    margin-right: -59px;
+    position: absolute;
+    left: 20%;
 }
 
 .form-title {
@@ -613,8 +614,8 @@ h6 {
     }
 
     .block-gradient {
-        width: 442px;
-        height: 403px;
+        width: 359px;
+        height: 429px;
     }
 
     .block-text {
@@ -651,7 +652,19 @@ h6 {
 
     .sport-yoga {
         background-image: url(../images/png/Vebinarr3.png);
+        background-repeat: no-repeat;
+        display: grid;
+        grid-column: span 2;
+        background-size: contain;
+        width: 748px;
+        height: 336px;
+        margin-top: 11px;
+        position: relative;
+    }
 
+    .sport-yoga:after {
+        width: 748px;
+        height: 709px;
     }
 
     .sport-container {
@@ -738,6 +751,15 @@ h6 {
     .form-title {
         font-size: 26px;
         width: 211px;
+        margin: auto;
+        margin-bottom: 51px;
+    }
+
+
+
+    .circle img {
+        width: 31px;
+        right: 10px;
     }
 
     .form-input {
@@ -786,5 +808,29 @@ h6 {
 
     .container-elementor-footer {
         margin-top: 60px;
+    }
+
+    .header-logo {}
+
+    .footer-nav {
+        width: 300px;
+        gap: 25px;
+    }
+
+    .footer-nav ul {
+        font-size: 12px;
+    }
+
+    .footer-box {
+        width: 227px;
+        gap: 35px;
+    }
+
+    .address {
+        font-size: 12px;
+    }
+
+    .item-protect {
+        font-size: 12px;
     }
 }
