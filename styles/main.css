@@ -570,7 +570,6 @@ h6 {
     font-weight: 700;
     font-size: 16px;
     color: #2B3541;
-    margin-right: 64px;
     position: absolute;
     bottom: 3px;
 }
@@ -768,7 +767,13 @@ h6 {
         gap: 20px;
     }
 
-    .box-cols {}
+    .box-cols2 {
+        background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%);
+        opacity: 0.7;
+        box-shadow: 0px 13px 30px rgba(186, 180, 69, 0.2);
+        height: 224px;
+        border: none;
+    }
 
     .sport-grid {
         width: 364px;
@@ -791,8 +796,6 @@ h6 {
         margin: auto;
         margin-bottom: 51px;
     }
-
-
 
     .form-input {
         width: 340px;
@@ -842,8 +845,6 @@ h6 {
         margin-top: 60px;
     }
 
-
-
     .footer {
         width: 768px;
         height: 280px;
@@ -858,7 +859,6 @@ h6 {
     }
 
     .footer-nav {
-        width: 300px;
         gap: 25px;
     }
 
@@ -873,8 +873,73 @@ h6 {
 
     .item-protect {
         font-size: 12px;
+
     }
 
     .ellipse {
-        right: -246px;
+        right: -353px;
     }
+
+    .footer-item-protect {
+        gap: 288px;
+    }
+
+    /*Modal*/
+    .sport-club {
+        width: 29px;
+        height: 22px;
+        background-image: url(../images/icons/sportclub.svg);
+        border: none;
+        background-color: transparent;
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+
+    }
+
+    .modal {
+        background: #F3F3F3;
+        width: 587px;
+        height: 331px;
+        text-align: center;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 20px auto 0;
+        padding: 93px 10px 86px 50px;
+        box-sizing: border-box;
+        transition: 0.5s;
+    }
+
+    .header-logo {
+        width: 78;
+        height: 24px;
+        top: 0;
+        left: 0;
+    }
+
+    .modal .header-nav {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 0;
+        text-decoration: underline;
+    }
+
+    .sportclub-close {
+        width: 20px;
+        height: 19px;
+        background-image: url(../images/icons/close.svg);
+        background-color: transparent;
+        border: none;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: none;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+}
