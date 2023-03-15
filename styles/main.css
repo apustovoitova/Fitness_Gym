@@ -538,7 +538,6 @@ h6 {
     margin-top: 173px;
     background: #F3F3F3;
     width: 100%;
-    height: 149px;
     position: relative;
 }
 
@@ -617,7 +616,7 @@ h6 {
 
     .box {
         border: 1px solid black;
-        height: 200px;
+        height: 224px;
         position: relative;
         margin-bottom: 20px;
     }
@@ -843,7 +842,20 @@ h6 {
         margin-top: 60px;
     }
 
-    .header-logo {}
+
+
+    .footer {
+        width: 768px;
+        height: 280px;
+        flex-wrap: wrap;
+    }
+
+    .footer-box {
+        width: 227px;
+        flex-basis: 70%;
+        flex-grow: 1;
+        text-align: center;
+    }
 
     .footer-nav {
         width: 300px;
@@ -854,16 +866,15 @@ h6 {
         font-size: 12px;
     }
 
-    .footer-box {
-        width: 227px;
-        gap: 35px;
-    }
-
     .address {
         font-size: 12px;
+        right: 118px;
     }
 
     .item-protect {
         font-size: 12px;
     }
-}
+
+    .ellipse {
+        right: -246px;
+    }
