@@ -20,7 +20,7 @@
             <div class="header">
                 <a href="#" class="header-logo"></a>
                 <div class="sportclubmenu">
-                    <button class="sport-club"></button>
+                    <button class="sport-club" onclick='openModal()'></button>
                 </div>
                 <nav>
                     <ul class="header-nav">
@@ -59,7 +59,9 @@
                 <img src="images/png/girl.png" alt="sportgirl">
             </div>
             <div class="icon-arrow">
-                <img src="images/icons/Arrow.svg" alt="">
+                <a href="#">
+                    <img src="images/icons/Arrow.svg" alt="">
+                </a>
             </div>
         </div>
     </div>
@@ -89,6 +91,7 @@
                 <div class="button2">
                     <button class="marathon">марафон</button>
                 </div>
+                <div> <button class="reserve">записаться</button></div>
             </div>
             <div class="sport-yoga">
                 <ul class="lessons">
@@ -98,6 +101,7 @@
                 <div class="button2">
                     <button class="marathon">марафон</button>
                 </div>
+                <div> <button class="reserve">записаться</button></div>
             </div>
         </div>
     </div>
@@ -171,9 +175,7 @@
 
     <div class="form-container">
         <form action="" class="form">
-            <div class="circle">
-                <img src="images/icons/Pattern.svg" alt="circle">
-            </div>
+
             <h1 class="form-title">Подпишитесь на рассылку</h1>
             <div class="flex-form">
                 <div class="form-group">
@@ -238,14 +240,11 @@
                     </ul>
                 </nav>
                 <div class="footer-box">
-                    <div class="ellipse">
-                        <img src="images/png/Ellipse3.png" alt="#">
-                    </div>
                     <a class="address" href="mailto:info@freefit.com">info@freefit.com</a>
                     <div class="footer-button">
                         <button type="button" class="button-item2">
                             <span>
-                                <img src="images/icons/IN.svg" alt="instagram">
+                                <img class="button-in" src="images/icons/IN.svg" alt="instagram">
                             </span>
                         </button>
                         <button type="button" class="button-item1">
@@ -262,14 +261,14 @@
             </div>
         </div>
     </div>
-    <div class="modal">
+    <div class="modal" id="modal">
         <a href="#" class="header-logo"></a>
         <ul class="header-nav">
             <li><a href="#">Мероприятия</a></li>
             <li><a href="#">Расписание</a></li>
             <li><a href="#">О компании</a></li>
         </ul>
-        <button class="sportclub-close"></button>
+        <button class="sportclub-close" onclick='closeModal()'></button>
     </div>
 
     </div>
@@ -277,3 +276,14 @@
 </body>
 
 </html>
+<script>
+    function openModal() {
+        document.getElementById("modal").style.top = "0px";
+    }
+
+    function closeModal() {
+        document.getElementById("modal").style.top = "-400px";
+    }
+
+
+</script>
