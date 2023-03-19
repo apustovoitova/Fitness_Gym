@@ -408,16 +408,6 @@ h4 {
     padding-top: 80px;
 }
 
-.form {
-    position: relative;
-}
-
-.circle {
-    position: absolute;
-    left: -37px;
-    top: -7px
-}
-
 .form-title {
     font-weight: 700;
     font-size: 40px;
@@ -591,6 +581,17 @@ h6 {
 
 }
 
+.footer-box {
+    width: 307px;
+    height: 36px;
+    position: relative;
+    background-image: url(../images/png/Ellipse3.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 5px;
+    background-position: 54px;
+}
+
 .address {
     text-decoration: none;
     font-weight: 700;
@@ -598,16 +599,6 @@ h6 {
     color: #2B3541;
     bottom: 3px;
     position: absolute;
-}
-
-.ellipse {
-    padding-right: 5px;
-}
-
-.footer-box {
-    width: 307px;
-    height: 36px;
-    position: relative;
 }
 
 .footer-item-protect {
